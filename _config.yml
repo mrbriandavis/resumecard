@@ -1,10 +1,10 @@
 # Site settings
-title: Dong Liang's CV 
-description: ddbullfrog's CV
-favicon: /resumecard/assets/img/avatar.JPG
-baseurl: https://ddbullfrog.github.io/resumecard
-url: https://ddbullfrog.github.io/resumecard
-rss_url: /resumecard/pages/atom.xml
+title: Brian Davis's Resume
+description: mrbriandavis CV
+favicon: /assets/img/avatar.jpeg
+# baseurl: http://resume.mrbriandavis/
+# url: http://resume.mrbriandavis
+rss_url: /pages/atom.xml
 
 # Build settings
 markdown: kramdown
@@ -13,69 +13,77 @@ exclude: [vendor]
 
 # Author settings
 author:
-  name: Dong Liang
-  title: Java Developer
-  address: Auckland, New Zealand
-  email: dongg.liang@gmail.com
-  link: http://ddbullfrog.com
+  name: Brian Davis
+  title: Engineer
+  address: Redmond, Washington
+  email: mrbriandavis@outlook.com
+  link: http://mrbriandavis.com
   weibo:
-  github: ddbullfrog
-  linkedin: ddbullfrog
-  twitter: ddbullfrog
-  gavatar: /resumecard/assets/img/avatar.JPG
+  github: mrbriandavis
+  linkedin: brian-davis-9a702158
+  twitter: mrbriandavis
+  gavatar: favicon
   workHistory:
     - work1:
-      company: Finzsoft Solutions Ltd
-      location: Auckland, New Zealand
-      title: Java Developer
-      started: 2014
-      duration: (2014 - Present)
+      company: Microsoft
+      location: Redmond, Washington
+      title: Backend Services Developer
+      started: 2015
+      duration: (2015 - Present)
       description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
     - work2:
-      company: Agfa HealthCare
-      location: Shanghai, China
-      title: Java Developer
-      started: 2012
-      duration: (2012 - 2014)
+      company: Microsoft
+      location: San Francisco, California
+      title: Software Engineer in Test II
+      started: 2013
+      duration: (2013 - 2015)
       description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
     - work3:
-      company: Citigroup Services and Technology (China) Limited
-      location: Shanghai, China
-      title: Java Developer
-      started: 2009
-      duration: (2009 - 2012)
-      description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
+      company: Microsoft | Yammer
+      location: Phoenix, Arizona
+      title: Solutions Engineer
+      started: 2012
+      duration: (2012 - 2013)
+      description: "Some basic instructions"
+      description_duties:
+        ["Synchronizing customers Yammer network accounts with their existing Active Directory system", "Installing and configuring Yammers SharePoint Web Part into their existing SharePoint systems",
+          "Implementing SAML based Single Sign On authentication between the customers users and Yammer.coms Ping server.",
+           "RESTful API support/development"]
+    - work4:
+      company: Western Maricopa Education Center
+      location: Phoenix, Arizona
+      title: IT Coordinator
+      started: 2011
+      duration: (2011 - 2012)
+      description: Communicating problems and solutions and providing PC and system related education as appropriate.
   educationHistory:
     - education1:
-      organization: Northeastern University
+      organization: Northern Arizona University
       degree: Bachelor
-      major: Software Engineering
-      started: 2005
-      duration: (2005 - 2009)
+      major: Education
+      started: 2000
+      duration: (2000 - 2004)
       description: I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description. I am not a description. I am not description.I am not description.
-  languages:
-    - language1:
-      name: Chinese
-      proficiency: Native
-    - language2:
-      name: English
-      proficiency: Professional
-    - language3:
-      name: Japanese
-      proficiency: Limit
+  # languages:
+  #   - language1:
+  #     name: Chinese
+  #     proficiency: Native
+  #   - language2:
+  #     name: English
+  #     proficiency: Professional
+  #   - language3:
+  #     name: Japanese
+  #     proficiency: Limit
   programmingSkills:
     - skill1:
-      name: HTML
-      percentage: 100%
+      name: Ruby
+      percentage: 80%
     - skill2:
-      name: Bootstrap
-      percentage: 90%
+      name: Java
+      percentage: 70%
     - skill3:
       name: JavaScript
-      percentage: 80%
+      percentage: 70%
     - skill4:
-      name: AngularJS
+      name: HTML
       percentage: 80%
-    - skill5:
-      name: Java/Java EE
-      percentage: 90%
